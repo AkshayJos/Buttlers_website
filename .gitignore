@@ -11,6 +11,9 @@
 # production
 /build
 
+# Do not ignore src folder
+!src/
+
 # misc
 .DS_Store
 .env.local

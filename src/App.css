@@ -1,38 +1,156 @@
-.App {
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: #DCDCDC;
+}
+
+.content {
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.content h1 span {
+  background: linear-gradient(to right,#1b9f94 0,#316db3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-option {
+  background: linear-gradient(to right,#1b9f94 0,#316db3 100%);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  flex: 1;
+  box-shadow: rgb(45, 45, 45) 0px 2px 13px -6px;
+}
+
+.contact-option i {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-option p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.contact-option a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.image {
+  flex: 1;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image img {
+  max-width: 100%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.google-map{
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+#text{
+  color: black;
+}
+
+.content h1{
+  color: rgb(91, 91, 91);
+}
+
+h1{
+  border-left:6px solid rgb(24, 167, 144) ;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.google-map-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 90vh;
+  width: 90vw;
+  margin: 3vw;
+}
+
+
+
+
+
+
+/* Base styles */
+.corporate-office {
+  background-color: #DCDCDC;
   color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.corporate-office-heading h2 {
+  font-size: 2.5em;
+  color: rgb(91, 91, 91);
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.corporate-office-heading p {
+  font-size: 1.2em;
+  margin: 0;
+  color: black;
+}
+
+.icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+
+
+/* Media Queries for Responsive Design */
+
+/* Tablet view */
+@media (min-width: 600px) {
+  .corporate-office h2 {
+    font-size: 3em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .corporate-office-heading p {
+    font-size: 1.5em;
   }
 }
+
+/* Desktop view */
+@media (min-width: 1024px) {
+  .corporate-office-heading h2 {
+    font-size: 3.5em;
+  }
+
+  .corporate-office-heading p {
+    font-size: 1.8em;
+  }
+}
+
