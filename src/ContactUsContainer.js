@@ -11,6 +11,7 @@ export default function ContactUsContainer() {
           <p id="text">
             Be it feedback, a grievance, a satisfactory experience or your love
             for Buttlers, we are all ears to what you have to say.
+            Welcome to Buttlers! We are here to assist you with any inquiries, support, or feedback you may have. Please reach out to us through one of the following methods:  
           </p>
           <div className="contact-options">
             <div className="contact-option">

@@ -5,11 +5,13 @@
   padding: 20px;
   color: white;
   background-color: #DCDCDC;
-  padding-left: 3vw;
+  padding-left: 3vw;    
 }
 
 .content {
   flex: 1;
+  height: 38rem;
+  width: 40rem;
 }
 
 .content h1 {
@@ -25,7 +27,7 @@
 
 .content p {
   font-size: 1.2em;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .contact-options {
@@ -35,7 +37,7 @@
 
 .contact-option {
   background: linear-gradient(to right,#1b9f94 0,#316db3 100%);
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   border-radius: 10px;
   margin-right: 10px;
@@ -90,7 +92,7 @@
 .google-map-container{
   display: flex;
   justify-content: center;
-  height: 90vh;
+  height: 75vh;
   width: 93vw;
   margin: 1.7vw;
 }
